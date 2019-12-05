@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    margin: 0;
+    background: #94a7c1;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/american-flag.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    border-bottom: solid 5px #379382;
+    color: #fff;
+}
+
+#title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 20px;
+
+}
+
+#twitter-user:link,
+#twitter-user:visited {
+    text-decoration: none;
+    color: #aad8d8;
+}
+
+
+
+#twitter-user:hover,
+#twitter-user:active {
+    color: teal;
+}
+
+#image {
+    margin-top: 10px;
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: solid 10px #fff;
+}
+
+#img-div {
+    margin: 20px 20px 0;
+    border-radius: 5px;
+    
+    color: #fff;
+}
+#info {
+    margin: 0 7%;
+}
+
+#info li {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 110%;
+    text-align: start;
+}
+
+#info li:first-child::first-letter {
+    font-size: 100px;
+    color: #3673a3;
+    font-weight: 700;
+    margin: 12px 10px 4px 0;
+    float: left;
+    text-transform: uppercase;
+    line-height: 56px;
+    font-family: "Merriweather";
+}
+
+#tribute-info {
+    text-align: unset;
+    color: #2a2f5e;
+    margin: 10px 20%;
+}
+
+li {
+    margin: 15px 0;
+}
+
